@@ -1,0 +1,32 @@
+.footer {
+    padding-top: 8%;
+}
+body {
+    background-color: #e0e0e09f;
+}
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    margin-left: 400px;
+}
+
+.footer-logo {
+    max-height: 250px;
+}
+.main-container {
+    margin-left: 25%;
+}
+
+@keyframes surgir {
+    from {
+        opacity: 0;
+        display: none;
+    }
+
+    to {
+        opacity: 1;
+        display: block;
+    }
+}
